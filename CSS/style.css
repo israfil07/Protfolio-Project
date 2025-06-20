@@ -1,0 +1,99 @@
+nav {
+    background-color: #3674B5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 80px;
+}
+
+* {
+    font: "ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+.hero {
+    background: #e4eff1;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.hero h1 span {
+    color: #0d6efd;
+}
+
+.hero-img img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.blog-header {
+    text-align: center;
+    padding: 60px 0 30px;
+}
+
+.card-image-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-header {
+    text-align: center;
+    padding: 60px 0 30px;
+}
+
+.card-body {
+    background-color: rgb(197, 177, 133);
+}
+
+.about-header {
+    text-align: center;
+    padding: 60px 0 30px;
+}
+
+.about-header h1 {
+    font-weight: bold;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.info-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.personal-info {
+    width: 100%;
+    padding: 60px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
